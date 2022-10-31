@@ -1,0 +1,27 @@
+0. flask web app for task list
+1. Install the necessary packages
+  * sudo apt install python3-pip
+2. pip3 install "virtualenv"
+3. create a virtual enviroment: virtualenv env (python3 -m venv name-venv)
+4. activate the virtual enviroment: source env/bin/activate
+5. Install the framework flask and the ORM sqlalchemy: pip3 install flask flasksqlalchemy
+6. create an app.py file in the main folder
+7. create a hello world app in flask
+8. run the app with:python3 app.py
+9. show the diference between debug mode activate
+10. create "static" folder
+11. create "templates" folder
+12. import "render_template" for display html code
+13. create a base.html and extend in the index.html
+14.  create a css folder inside static folder
+15. create a style.css file in the css folder
+16. add in the base.html the link tag with address of css file
+for that use the url_for() function
+17. import in the app.py file the url_for function
+18. import the ORM sqlalchemy in the app.py file 
+19. Explain de logic for the database design
+20. make the database with ORM
+21. create a table for tasks in index.html file
+22. modify the app.py with the request method in the function
+23. import the request function
+

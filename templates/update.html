@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block head %} 
+
+
+
+{% endblock %}
+
+
+{% block body %} 
+
+<header>
+    <h1>Update task</h1>
+</header>
+
+
+<br>
+
+<form action="/update/{{task.id}}" method="POST">
+    <input type="text" name="content" id="content" placeholder="write your task here" value="{{task.content}}">
+    <button type="submit">Update task</button>
+</form>
+
+{% endblock %}
+
